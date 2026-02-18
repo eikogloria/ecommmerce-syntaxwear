@@ -1,4 +1,5 @@
 /* Base CSS - reset/light opinions, global typography */
 body{
     font-family: var(--fonte-principal);
+    color: #333333;
 }
