@@ -4,7 +4,9 @@
 *::after {
   box-sizing: border-box;
 }
-
+*{
+  margin: 0;
+}
 /* Prevent font size inflation */
 html {
   -moz-text-size-adjust: none;
