@@ -2,5 +2,35 @@
 body{
     font-family: var(--fonte-principal);
     color: #333333;
-    background-color: #000;
+}
+
+
+.btn{
+    font-size: 1.25rem;
+    width: 161px;
+    height: 48px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    padding: 10px 20px;
+    transition: background-color 0.3s,  border 0.3s;
+}
+
+.btn-outline{
+    border: 2px solid #fff;
+    background: transparent;
+    margin-right: 1rem;
+    line-height: 23px;
+}
+
+.btn-filled{
+    background: #fff;
+    color: #6329A2;
+}
+
+.btn:hover{
+    background:  #6329A2;
+    color:#fff;
+    border-color: #6329A2;
 }
