@@ -18,7 +18,7 @@ main{
     text-decoration: none;
     color: #fff;
     font-weight: 400;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     transition: background-color 0.3s,  border 0.3s;
 }
 
@@ -26,7 +26,7 @@ main{
     border: 2px solid #fff;
     background: transparent;
     margin-right: 1rem;
-    line-height: 23px;
+    line-height: 1.4375rem;
 }
 
 .btn-filled{
@@ -38,4 +38,10 @@ main{
     background:  #6329A2;
     color:#fff;
     border-color: #6329A2;
+}
+
+.footer-copy{
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 1.25rem;
 }
